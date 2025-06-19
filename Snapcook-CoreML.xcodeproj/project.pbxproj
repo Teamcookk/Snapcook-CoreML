@@ -29,9 +29,22 @@
 		85B7F94E2E01935B0026F295 /* Snapcook-CoreMLUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Snapcook-CoreMLUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		851A55AB2E03095D00C914B2 /* Exceptions for "Snapcook-CoreML" folder in "Snapcook-CoreML" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 85B7F9362E01935A0026F295 /* Snapcook-CoreML */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		85B7F9392E01935A0026F295 /* Snapcook-CoreML */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				851A55AB2E03095D00C914B2 /* Exceptions for "Snapcook-CoreML" folder in "Snapcook-CoreML" target */,
+			);
 			path = "Snapcook-CoreML";
 			sourceTree = "<group>";
 		};
@@ -400,6 +413,9 @@
 				DEVELOPMENT_TEAM = ZN33ZJFC65;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Snapcook-CoreML/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Aplikasi ini memerlukan akses kamera untuk mengambil foto.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "SwiftCamera captures photos and saves them into your photo library";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -428,6 +444,9 @@
 				DEVELOPMENT_TEAM = ZN33ZJFC65;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Snapcook-CoreML/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Aplikasi ini memerlukan akses kamera untuk mengambil foto.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "SwiftCamera captures photos and saves them into your photo library";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

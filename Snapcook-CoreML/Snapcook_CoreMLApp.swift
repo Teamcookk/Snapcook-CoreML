@@ -11,7 +11,7 @@ import SwiftUI
 struct Snapcook_CoreMLApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            CameraView()
         }
     }
 }
